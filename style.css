@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .nav-container{
-    width: 1920px;
-    height: 130px;
+    width: 120rem;
+    height: 8.125rem;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -34,7 +34,7 @@ a{
     text-decoration: none;
 }
 .text-primary{
-text-align: center;
+/* text-align: center; */
 font-family: "Work Sans";
 font-size: 45px;
 font-style: normal;
@@ -60,8 +60,8 @@ line-height: normal;
     font-weight: 500;   
 }
 .follow{
-    width: 262px;
-    height: 56px;
+    width: 16.375rem;
+    height:3.5rem;
     flex-shrink: 0;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
@@ -80,6 +80,97 @@ color: black;
 padding-left: 16px;
 }
 
+/* banner section starts here  */
+.banner-container{
+display: flex;
+align-content: center;
+/* width: 1920px;
+height: 700px; */
+}
+.banner-left-container{
+width: 56.313rem;
+ height:43.75rem;
+flex-shrink: 0;
+padding: 148px 306px 148px 240px;
+padding-top: 148px;
+background-image:url(./images/Group\ 14.png);
+}
+.banner-img{
+width: 44.966rem;
+height: 42.564rem;
+padding-left: 50px;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 48px;;
+    font-weight: 600;
+    text-transform: uppercase;   
+}
+.goat{
+    text-align: center ;
+    font-family: "Work Sans";
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+.banner-paragraph{
+    color: #534C64;
+    text-align: left;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.fa-circle-play{
+    color: palevioletred;
+   
+}
+.btn-container{
+width:22.625rem;
+height: 6.5rem;
+margin: 0 auto ;
+}
+.fa-download{
+    color: #F948B2;
+}
+.fa-people-group{
+    color: rgb(59, 58, 58);
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.btn-different{
+    background: #4EC5F7;
+}
+.paragraph-one{
+    padding-top: 24px;
+    padding-bottom: 17px;
+}
+.paragraph-three{
+    padding-top: 17px;
+    padding-bottom: 41px;
+}
+
 
 
 /* responsive for phone  */
@@ -88,6 +179,7 @@ padding-left: 16px;
     flex-direction: column;
     height: 0px;
     width: 100%;
+    padding-bottom: 78px;
 }
 .gamer-container{
     padding-left: 0px;
@@ -99,6 +191,7 @@ padding-left: 16px;
 .icons-container div {
     padding-right: 0px;
 }
+
 }
 
 

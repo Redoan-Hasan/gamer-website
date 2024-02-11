@@ -414,13 +414,15 @@ margin-left: 24px;
     }
     .banner-two-container{
         width: 100%;
+        display: flex;
+        align-items: center;
     }
     .banner-two-img img{
-        width: 75%;
+        width: 100%;
     }
     .banner-two-description{
         width: 100%;
-        padding: 30px 20px;
+        padding: 10px 10px;
         text-align: center;
     }
     .banner-two-title{
@@ -432,7 +434,7 @@ margin-left: 24px;
     .banner-two-paragraph{
         font-size: 15px;
         text-align: center;
-        padding: 10px;
+        padding: 0px;
     }
     .banner-two-button{
         margin: 0px;
@@ -440,7 +442,6 @@ margin-left: 24px;
     .banner-two-para{
         color: #534C64;
         font-size: 17px;
-        padding-top: 10px;
     }
     .banner-two-header{
         font-size: 22px;

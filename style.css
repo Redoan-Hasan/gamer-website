@@ -6,12 +6,14 @@
 .nav-container{
     width: 120rem;
     height: 8.125rem;
+    /* height: 300px; */
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    /* margin-bottom: 200px; */
 }
 .gamer-container{
     padding-left: 240px;
@@ -79,78 +81,66 @@ line-height: normal;
 color: black;
 padding-left: 16px;
 }
-
 /* banner section starts here  */
 .banner-container{
-display: flex;
-align-content: center;
-/* width: 1920px;
-height: 700px; */
+    display: flex;
+    /* background: #FFF; */
 }
-.banner-left-container{
-width: 56.313rem;
- height:43.75rem;
-flex-shrink: 0;
-padding: 148px 306px 148px 240px;
-padding-top: 148px;
-background-image:url(./images/Group\ 14.png);
+.banner-text-container{
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    /* height: 700px;; */
+    padding: 148px 309px 148px 240px;
+    /* text-align: center; */
+    /* align-content: center; */
 }
-.banner-img{
-width: 44.966rem;
-height: 42.564rem;
-padding-left: 50px;
+.banner-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 17px;
+}
+.banner-description{
+    display: flex;
+    gap: 12px;
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
 }
 .banner-title{
     color: #0B0223;
-    text-align: center;
+    /* text-align: center; */
     font-family: "Work Sans";
-    font-size: 48px;;
+    font-size: 48px;
+    font-style: normal;
     font-weight: 600;
-    text-transform: uppercase;   
+    line-height: normal;
+    text-transform: uppercase;
 }
 .goat{
-    text-align: center ;
+    /* text-align: center; */
     font-family: "Work Sans";
     font-size: 95px;
+    font-style: normal;
     font-weight: 800;
+    line-height: normal;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent; 
 }
-.banner-paragraph{
-    color: #534C64;
-    text-align: left;
-    font-family: "Work Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: lowercase;
-}
-.fa-circle-play{
-    color: palevioletred;
-   
-}
-.btn-container{
-width:22.625rem;
-height: 6.5rem;
-margin: 0 auto ;
-}
-.fa-download{
+.fa-play, .fa-download{
     color: #F948B2;
 }
-.fa-people-group{
-    color: rgb(59, 58, 58);
+.fa-user-group{
+    background-color: white;
 }
 .btn-primary{
-    display: inline-flex;
-    padding: 15px 30px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
     color: #FFF;
     font-family: "Work Sans";
     font-size: 20px;
@@ -158,18 +148,21 @@ margin: 0 auto ;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+     margin-top: 40px;
+    /* display: inline-flex; */
+    padding: 21px 40px;
+    /* align-items: flex-start; */
+    /* gap: 10px; */
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
 }
 .btn-different{
-    background: #4EC5F7;
+background: #4EC5F7;
+margin-right: 24px;
 }
-.paragraph-one{
-    padding-top: 24px;
-    padding-bottom: 17px;
-}
-.paragraph-three{
-    padding-top: 17px;
-    padding-bottom: 41px;
-}
+
+/* banner section ends here  */
+
 
 
 
@@ -177,12 +170,13 @@ margin: 0 auto ;
 @media screen and (max-width:576px) {
 .nav-container{
     flex-direction: column;
-    height: 0px;
+    height: 100%;
     width: 100%;
-    padding-bottom: 78px;
+    /* padding-bottom: 78px; */
 }
 .gamer-container{
     padding-left: 0px;
+    padding-bottom: 0px;
     /* width: 100%; */
 }
 .i-container{
@@ -190,8 +184,29 @@ margin: 0 auto ;
 }
 .icons-container div {
     padding-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
+/* banner */
+.banner-container{
+    flex-direction: column-reverse;
+}
+.banner-img img{
+    width: 100%;
+    padding: 20px;
+}
+.banner-div-container{
+    width: 100%;
+    
+}
+.banner-text-container{
+    width: 100%;
+    padding: 20px;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
 }
 
 

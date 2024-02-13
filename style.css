@@ -211,6 +211,94 @@ margin-left: 24px;
 
 /* banner section ends here  */
 
+/* funny section starts here  */
+.f-container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.funny-section-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+}
+.videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny-section-description{
+    color: #534C64;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding-bottom: 48px;
+}
+.cards, .funny-section-cards-container{
+    position: relative;
+}
+.funny-section-cards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border: 4px solid #FF42A5;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+.img-overlay:hover {
+    opacity: 1;
+}
+.icons{
+    font-size:48px;
+    color: white;
+}
+.watch-now{
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 700;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+     background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    padding-top: 16px;
+}
+.under-img-description{
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+    width: 300px;
+    padding-top: 24px;
+}
+
+
 
 
 
@@ -250,8 +338,6 @@ margin-left: 24px;
 .banner-text-container{
     width: 95%;
     margin: 20px;
-    /* text-align: center; */
-    /* margin-left:  60px; */
     padding:10px;
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;

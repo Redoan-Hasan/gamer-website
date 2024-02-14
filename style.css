@@ -213,7 +213,7 @@ margin-left: 24px;
 
 /* funny section starts here  */
 .f-container{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -225,7 +225,8 @@ margin-left: 24px;
     font-weight: 400;
     line-height: 30px; 
     padding-bottom: 48px;
-}.funny-section-title{
+}
+.funny-section-title{
     color: #0B0223;
     text-align: center;
     font-family: "Work Sans";
@@ -250,8 +251,8 @@ margin-left: 24px;
 .funny-section-cards-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: 100%;
+    /* align-items: center; */
+    /* width: 23%; */
 }
 .img-overlay{
     display: flex;
@@ -420,12 +421,14 @@ margin-left: 24px;
 }
 .funny-section-cards-container{
     flex-direction: column;
+    align-items: center;
 }
 .funny-section-description{
     font-size: 15px;
     padding-bottom: 30px;
     padding-top: 10px;
-}.funny-section-title{
+}
+.funny-section-title{
     font-size: 30px;
     margin-top: 70px;
 }
@@ -561,8 +564,28 @@ margin-left: 24px;
         width: 100%;
         margin: 0 auto;
     }
-    .funny-section-cards-container{
+    .cards-section{
+        width: 23%;
+    }
+    .cards >img{
         width: 100%;
     }
-    
+    .under-img-description{
+        font-size: 15px;
+        padding-top: 10px;
+        width: 100%;
+        line-height: 20px;
+    } 
+    .funny-section-description{
+        font-size: 15px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    .funny-section-title{
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    .videos{
+        font-size: 35px;
+    }
 }

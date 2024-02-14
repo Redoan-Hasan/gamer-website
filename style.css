@@ -684,4 +684,45 @@ margin-left: 24px;
     .videos{
         font-size: 35px;
     }
+    .play-section{
+        width: 100%;
+        gap: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .instant-text-container >h2{
+        text-align:right;
+        font-family: "Work Sans";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        width: 100%;
+    }
+    .instant-text-container >p{
+        color: #534C64;
+        text-align: right;
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-left: 110px;
+        width: 70%;
+        padding: 5px;
+    }
+    .img-one img{
+        width: 100%;
+    }
+    .img-two img{
+       width: 50%;
+    }
+    .instant-text-container{
+        width: 100%;
+        text-align: center;
+    }
+    .play-photo-container{
+        width:80%;
+        margin-right: 10px;
+    }
 }

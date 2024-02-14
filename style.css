@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .nav-container{
-    width: 120rem;
+    /* width: 120rem; */
     height: 8.125rem;
     /* height: 300px; */
     background: #FFF;
@@ -216,7 +216,16 @@ margin-left: 24px;
     width: 1440px;
     margin: 0 auto;
 }
-.funny-section-title{
+
+.funny-section-description{
+    color: #534C64;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding-bottom: 48px;
+}.funny-section-title{
     color: #0B0223;
     text-align: center;
     font-family: "Work Sans";
@@ -235,15 +244,6 @@ margin-left: 24px;
     font-size: 48px;
     font-weight: 700;
 }
-.funny-section-description{
-    color: #534C64;
-    text-align: center;
-    font-family: "Work Sans";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px; 
-    padding-bottom: 48px;
-}
 .cards, .funny-section-cards-container{
     position: relative;
 }
@@ -251,6 +251,7 @@ margin-left: 24px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 .img-overlay{
     display: flex;
@@ -413,7 +414,31 @@ margin-left: 24px;
 .banner-two-header{
     font-size: 22px;
 }
+.f-container{
+    width: 100%;
+    margin: 0 auto;
 }
+.funny-section-cards-container{
+    flex-direction: column;
+}
+.funny-section-description{
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}.funny-section-title{
+    font-size: 30px;
+    margin-top: 70px;
+}
+.videos{
+    font-size: 30px;
+}
+.under-img-description {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+}
+
 
 
 
@@ -532,4 +557,12 @@ margin-left: 24px;
     .banner-two-header{
         font-size: 22px;
     }
+    .f-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .funny-section-cards-container{
+        width: 100%;
+    }
+    
 }
